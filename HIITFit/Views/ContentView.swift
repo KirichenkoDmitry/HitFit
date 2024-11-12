@@ -8,16 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        TabView {
-            WelcomeView()
-            ForEach(0..<4) { index in
-                ExerciseView(index: index)
-            }
-            Text("Exercise 2")
+  @SceneStorage("selectedTab") private var selectedTab = 9
+
+  var body: some View {
+    ZStack {
+      GradientBackground()
+      TabView(selection: $selectedTab) {
+        WelcomeView(selectedTab: $selectedTab)
+          .tag(9)
+        ForEach(Exercise.exercises.indices, id: \.self) { index in
+          ExerciseView(selectedTab: $selectedTab, index: index)
+            .tag(index)
         }
-        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+      }
+      .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
     }
+  }
 }
 
 #Preview {

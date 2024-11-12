@@ -54,9 +54,6 @@ struct HistoryView: View {
   }
 }
 
-
-
-
 struct HistoryView_Previews: PreviewProvider {
   static var history = HistoryStore(preview: true)
   static var previews: some View {

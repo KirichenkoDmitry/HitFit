@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB06F7B92CCA403800E142C3 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB06F7B82CCA403800E142C3 /* RatingView.swift */; };
+		FB06F7BB2CCA459400E142C3 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB06F7BA2CCA459400E142C3 /* VideoPlayerView.swift */; };
+		FB06F7BD2CCA775800E142C3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB06F7BC2CCA775800E142C3 /* HistoryView.swift */; };
+		FB06F7BF2CCA889100E142C3 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB06F7BE2CCA889100E142C3 /* HistoryStore.swift */; };
+		FB06F7C22CCA916700E142C3 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB06F7C12CCA916700E142C3 /* HistoryStoreDevData.swift */; };
+		FB06F7C42CCAA5B500E142C3 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB06F7C32CCAA5B500E142C3 /* SuccessView.swift */; };
+		FB091EAF2CDE3F9500D23D7B /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB091EAE2CDE3F9400D23D7B /* GradientBackground.swift */; };
+		FB1189262CE2122200A0E283 /* history.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB1189252CE2122200A0E283 /* history.plist */; };
+		FB118D112CDCECF600F043B5 /* WelcomeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB118D102CDCECF600F043B5 /* WelcomeImages.swift */; };
+		FB118D132CDCF80500F043B5 /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB118D122CDCF80500F043B5 /* RaisedButton.swift */; };
+		FB1424DE2CBD21CD001A4C21 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1424DD2CBD21CD001A4C21 /* HeaderView.swift */; };
+		FB1424E02CBD4548001A4C21 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1424DF2CBD4548001A4C21 /* Exercise.swift */; };
+		FB1424E62CBD61B5001A4C21 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB1424E22CBD61B5001A4C21 /* sun-salute.mp4 */; };
+		FB1424E72CBD61B5001A4C21 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB1424E32CBD61B5001A4C21 /* burpee.mp4 */; };
+		FB1424E82CBD61B5001A4C21 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB1424E42CBD61B5001A4C21 /* squat.mp4 */; };
+		FB1424E92CBD61B5001A4C21 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FB1424E52CBD61B5001A4C21 /* step-up.mp4 */; };
+		FB1424EB2CBD61E1001A4C21 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1424EA2CBD61E1001A4C21 /* DateExtension.swift */; };
+		FB1424ED2CBD61FA001A4C21 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1424EC2CBD61FA001A4C21 /* ImageExtension.swift */; };
 		FB4327702CAB354B00F8C92A /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43276F2CAB354B00F8C92A /* HIITFitApp.swift */; };
 		FB4327722CAB354B00F8C92A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4327712CAB354B00F8C92A /* ContentView.swift */; };
 		FB4327742CAB354D00F8C92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4327732CAB354D00F8C92A /* Assets.xcassets */; };
@@ -14,6 +32,9 @@
 		FB4327812CAB354E00F8C92A /* HIITFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4327802CAB354E00F8C92A /* HIITFitTests.swift */; };
 		FB43278B2CAB354E00F8C92A /* HIITFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43278A2CAB354E00F8C92A /* HIITFitUITests.swift */; };
 		FB43278D2CAB354E00F8C92A /* HIITFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43278C2CAB354E00F8C92A /* HIITFitUITestsLaunchTests.swift */; };
+		FBA7035D2CDE02180043A5DE /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7035C2CDE02180043A5DE /* EmbossedButton.swift */; };
+		FBA7035F2CDE0FB70043A5DE /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7035E2CDE0FB70043A5DE /* ContainerView.swift */; };
+		FBEFEE662CD11FDE002A9984 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEFEE652CD11FDE002A9984 /* TimerView.swift */; };
 		FBF97A912CABF02300EA4638 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97A902CABF02300EA4638 /* WelcomeView.swift */; };
 		FBF97A932CABF02E00EA4638 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF97A922CABF02E00EA4638 /* ExerciseView.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +57,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB06F7B82CCA403800E142C3 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		FB06F7BA2CCA459400E142C3 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		FB06F7BC2CCA775800E142C3 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		FB06F7BE2CCA889100E142C3 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		FB06F7C12CCA916700E142C3 /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
+		FB06F7C32CCAA5B500E142C3 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		FB091EAE2CDE3F9400D23D7B /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		FB1189252CE2122200A0E283 /* history.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = history.plist; sourceTree = "<group>"; };
+		FB118D102CDCECF600F043B5 /* WelcomeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeImages.swift; sourceTree = "<group>"; };
+		FB118D122CDCF80500F043B5 /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
+		FB1424DD2CBD21CD001A4C21 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FB1424DF2CBD4548001A4C21 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		FB1424E22CBD61B5001A4C21 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		FB1424E32CBD61B5001A4C21 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		FB1424E42CBD61B5001A4C21 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		FB1424E52CBD61B5001A4C21 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		FB1424EA2CBD61E1001A4C21 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		FB1424EC2CBD61FA001A4C21 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		FB43276C2CAB354B00F8C92A /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB43276F2CAB354B00F8C92A /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
 		FB4327712CAB354B00F8C92A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,12 +85,11 @@
 		FB4327862CAB354E00F8C92A /* HIITFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIITFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB43278A2CAB354E00F8C92A /* HIITFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitUITests.swift; sourceTree = "<group>"; };
 		FB43278C2CAB354E00F8C92A /* HIITFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBA7035C2CDE02180043A5DE /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
+		FBA7035E2CDE0FB70043A5DE /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		FBEFEE652CD11FDE002A9984 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		FBF97A902CABF02300EA4638 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		FBF97A922CABF02E00EA4638 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
-		FBF97A952CABF7A000EA4638 /* Exers2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exers2.mp4; sourceTree = "<group>"; };
-		FBF97A962CABF7A000EA4638 /* Exers3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exers3.mp4; sourceTree = "<group>"; };
-		FBF97A972CABF7A100EA4638 /* Exers4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exers4.mp4; sourceTree = "<group>"; };
-		FBF97A982CABF7A100EA4638 /* Exers1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Exers1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +117,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB06F7C02CCA889800E142C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB1424DF2CBD4548001A4C21 /* Exercise.swift */,
+				FB06F7BE2CCA889100E142C3 /* HistoryStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB1189242CE207A600A0E283 /* HistoryViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB06F7BC2CCA775800E142C3 /* HistoryView.swift */,
+			);
+			path = HistoryViews;
+			sourceTree = "<group>";
+		};
+		FB1424E12CBD6193001A4C21 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				FB1424E32CBD61B5001A4C21 /* burpee.mp4 */,
+				FB1424E42CBD61B5001A4C21 /* squat.mp4 */,
+				FB1424E52CBD61B5001A4C21 /* step-up.mp4 */,
+				FB1424E22CBD61B5001A4C21 /* sun-salute.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		FB4327632CAB354B00F8C92A = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +168,11 @@
 		FB43276E2CAB354B00F8C92A /* HIITFit */ = {
 			isa = PBXGroup;
 			children = (
+				FB1424E12CBD6193001A4C21 /* Videos */,
 				FB43276F2CAB354B00F8C92A /* HIITFitApp.swift */,
+				FB06F7C02CCA889800E142C3 /* Model */,
+				FB1424EA2CBD61E1001A4C21 /* DateExtension.swift */,
+				FB1424EC2CBD61FA001A4C21 /* ImageExtension.swift */,
 				FBF97A942CABF05400EA4638 /* Views */,
 				FB4327732CAB354D00F8C92A /* Assets.xcassets */,
 				FB4327752CAB354D00F8C92A /* Preview Content */,
@@ -113,7 +183,9 @@
 		FB4327752CAB354D00F8C92A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FB1189252CE2122200A0E283 /* history.plist */,
 				FB4327762CAB354D00F8C92A /* Preview Assets.xcassets */,
+				FB06F7C12CCA916700E142C3 /* HistoryStoreDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,11 +212,18 @@
 			children = (
 				FB4327712CAB354B00F8C92A /* ContentView.swift */,
 				FBF97A902CABF02300EA4638 /* WelcomeView.swift */,
+				FB06F7C32CCAA5B500E142C3 /* SuccessView.swift */,
 				FBF97A922CABF02E00EA4638 /* ExerciseView.swift */,
-				FBF97A982CABF7A100EA4638 /* Exers1.mp4 */,
-				FBF97A952CABF7A000EA4638 /* Exers2.mp4 */,
-				FBF97A962CABF7A000EA4638 /* Exers3.mp4 */,
-				FBF97A972CABF7A100EA4638 /* Exers4.mp4 */,
+				FB1424DD2CBD21CD001A4C21 /* HeaderView.swift */,
+				FB06F7BA2CCA459400E142C3 /* VideoPlayerView.swift */,
+				FB06F7B82CCA403800E142C3 /* RatingView.swift */,
+				FB1189242CE207A600A0E283 /* HistoryViews */,
+				FBEFEE652CD11FDE002A9984 /* TimerView.swift */,
+				FB118D102CDCECF600F043B5 /* WelcomeImages.swift */,
+				FB118D122CDCF80500F043B5 /* RaisedButton.swift */,
+				FBA7035C2CDE02180043A5DE /* EmbossedButton.swift */,
+				FBA7035E2CDE0FB70043A5DE /* ContainerView.swift */,
+				FB091EAE2CDE3F9400D23D7B /* GradientBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,7 +332,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1424E82CBD61B5001A4C21 /* squat.mp4 in Resources */,
+				FB1189262CE2122200A0E283 /* history.plist in Resources */,
+				FB1424E72CBD61B5001A4C21 /* burpee.mp4 in Resources */,
+				FB1424E92CBD61B5001A4C21 /* step-up.mp4 in Resources */,
 				FB4327772CAB354D00F8C92A /* Preview Assets.xcassets in Resources */,
+				FB1424E62CBD61B5001A4C21 /* sun-salute.mp4 in Resources */,
 				FB4327742CAB354D00F8C92A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,10 +363,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB118D112CDCECF600F043B5 /* WelcomeImages.swift in Sources */,
+				FBEFEE662CD11FDE002A9984 /* TimerView.swift in Sources */,
+				FB1424DE2CBD21CD001A4C21 /* HeaderView.swift in Sources */,
+				FB1424EB2CBD61E1001A4C21 /* DateExtension.swift in Sources */,
 				FBF97A932CABF02E00EA4638 /* ExerciseView.swift in Sources */,
+				FB091EAF2CDE3F9500D23D7B /* GradientBackground.swift in Sources */,
+				FB06F7B92CCA403800E142C3 /* RatingView.swift in Sources */,
+				FB06F7BF2CCA889100E142C3 /* HistoryStore.swift in Sources */,
+				FB06F7C22CCA916700E142C3 /* HistoryStoreDevData.swift in Sources */,
+				FB06F7C42CCAA5B500E142C3 /* SuccessView.swift in Sources */,
 				FB4327722CAB354B00F8C92A /* ContentView.swift in Sources */,
+				FB118D132CDCF80500F043B5 /* RaisedButton.swift in Sources */,
+				FB06F7BD2CCA775800E142C3 /* HistoryView.swift in Sources */,
 				FBF97A912CABF02300EA4638 /* WelcomeView.swift in Sources */,
+				FBA7035F2CDE0FB70043A5DE /* ContainerView.swift in Sources */,
 				FB4327702CAB354B00F8C92A /* HIITFitApp.swift in Sources */,
+				FB1424E02CBD4548001A4C21 /* Exercise.swift in Sources */,
+				FB1424ED2CBD61FA001A4C21 /* ImageExtension.swift in Sources */,
+				FB06F7BB2CCA459400E142C3 /* VideoPlayerView.swift in Sources */,
+				FBA7035D2CDE02180043A5DE /* EmbossedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +546,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HIITFit/Preview Content\"";
-				DEVELOPMENT_TEAM = DFFND49594;
+				DEVELOPMENT_TEAM = V2P88DAU6T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -454,6 +554,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,7 +576,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HIITFit/Preview Content\"";
-				DEVELOPMENT_TEAM = DFFND49594;
+				DEVELOPMENT_TEAM = V2P88DAU6T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -483,6 +584,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

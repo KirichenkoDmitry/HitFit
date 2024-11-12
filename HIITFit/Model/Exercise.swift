@@ -8,15 +8,15 @@
 import Foundation
 
 struct Exercise {
-    let exerciseName: String
-    let videoName: String
-    
-    enum ExerciseEnum: String {
-        case squat = "Squat"
-        case stepUp = "Step Up"
-        case burpee = "Burpee"
-        case sunSalute = "Sun Salute"
-    }
+  let exerciseName: String
+  let videoName: String
+
+  enum ExerciseEnum: String {
+    case squat = "Squat"
+    case stepUp = "Step Up"
+    case burpee = "Burpee"
+    case sunSalute = "Sun Salute"
+  }
 }
 
 extension Exercise {
@@ -33,5 +33,12 @@ extension Exercise {
     Exercise(
       exerciseName: ExerciseEnum.sunSalute.rawValue,
       videoName: "sun-salute")
+  ]
+
+  static let names: [String] = [
+    ExerciseEnum.squat.rawValue,
+    ExerciseEnum.stepUp.rawValue,
+    ExerciseEnum.burpee.rawValue,
+    ExerciseEnum.sunSalute.rawValue
   ]
 }
