@@ -27,17 +27,14 @@ struct HistoryView: View {
   }
 
   func dayView(day: ExerciseDay) -> some View {
-    Section(
-      header:
-        Text(day.date.formatted(as: "MMM d"))
-        .font(.headline)) {
-          exerciseView(day: day)
-    }
+      Text(day.date.formatted(as: "d MMM YYYY"))
+        .font(.headline)
   }
 
   func exerciseView(day: ExerciseDay) -> some View {
-    ForEach(day.exercises, id: \.self) { exercise in
+    ForEach(day.uniqueExercises, id: \.self) { exercise in
       Text(exercise)
+        .badge(day.countExercise(exercise: exercise))
     }
   }
 
@@ -49,7 +46,9 @@ struct HistoryView: View {
         ForEach(history.exerciseDays) { day in
           dayView(day: day)
         }
-      }
+    }
+    .onDisappear {
+      try? history.save()
     }
   }
 }
