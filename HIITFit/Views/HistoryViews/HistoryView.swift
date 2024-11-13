@@ -26,10 +26,14 @@ struct HistoryView: View {
     }
   }
 
-  func dayView(day: ExerciseDay) -> some View {
-      Text(day.date.formatted(as: "d MMM YYYY"))
-        .font(.headline)
-  }
+    func dayView(day: ExerciseDay) -> some View {
+      DisclosureGroup {
+        exerciseView(day: day)
+      } label: {
+        Text(day.date.formatted(as: "d MMM YYYY"))
+          .font(.headline)
+      }
+    }
 
   func exerciseView(day: ExerciseDay) -> some View {
     ForEach(day.uniqueExercises, id: \.self) { exercise in
@@ -42,8 +46,7 @@ struct HistoryView: View {
     VStack {
       headerView
         .padding()
-      Form {
-        ForEach(history.exerciseDays) { day in
+        List($history.exerciseDays, editActions: [.delete]) { $day in
           dayView(day: day)
         }
     }
