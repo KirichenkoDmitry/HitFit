@@ -32,6 +32,9 @@
 		FB4327812CAB354E00F8C92A /* HIITFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4327802CAB354E00F8C92A /* HIITFitTests.swift */; };
 		FB43278B2CAB354E00F8C92A /* HIITFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43278A2CAB354E00F8C92A /* HIITFitUITests.swift */; };
 		FB43278D2CAB354E00F8C92A /* HIITFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB43278C2CAB354E00F8C92A /* HIITFitUITestsLaunchTests.swift */; };
+		FB4A8B4C2CE5DA6200A73EE6 /* AddHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A8B4B2CE5DA6200A73EE6 /* AddHistoryView.swift */; };
+		FB4A8B4E2CE6439F00A73EE6 /* BarChartDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A8B4D2CE6439F00A73EE6 /* BarChartDayView.swift */; };
+		FB4A8B502CE6483400A73EE6 /* BarChartWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A8B4F2CE6483400A73EE6 /* BarChartWeekView.swift */; };
 		FBA7035D2CDE02180043A5DE /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7035C2CDE02180043A5DE /* EmbossedButton.swift */; };
 		FBA7035F2CDE0FB70043A5DE /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7035E2CDE0FB70043A5DE /* ContainerView.swift */; };
 		FBEFEE662CD11FDE002A9984 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEFEE652CD11FDE002A9984 /* TimerView.swift */; };
@@ -85,6 +88,9 @@
 		FB4327862CAB354E00F8C92A /* HIITFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIITFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB43278A2CAB354E00F8C92A /* HIITFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitUITests.swift; sourceTree = "<group>"; };
 		FB43278C2CAB354E00F8C92A /* HIITFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB4A8B4B2CE5DA6200A73EE6 /* AddHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistoryView.swift; sourceTree = "<group>"; };
+		FB4A8B4D2CE6439F00A73EE6 /* BarChartDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDayView.swift; sourceTree = "<group>"; };
+		FB4A8B4F2CE6483400A73EE6 /* BarChartWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartWeekView.swift; sourceTree = "<group>"; };
 		FBA7035C2CDE02180043A5DE /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
 		FBA7035E2CDE0FB70043A5DE /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		FBEFEE652CD11FDE002A9984 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
@@ -130,6 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				FB06F7BC2CCA775800E142C3 /* HistoryView.swift */,
+				FB4A8B4B2CE5DA6200A73EE6 /* AddHistoryView.swift */,
+				FB4A8B4D2CE6439F00A73EE6 /* BarChartDayView.swift */,
+				FB4A8B4F2CE6483400A73EE6 /* BarChartWeekView.swift */,
 			);
 			path = HistoryViews;
 			sourceTree = "<group>";
@@ -363,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4A8B4C2CE5DA6200A73EE6 /* AddHistoryView.swift in Sources */,
 				FB118D112CDCECF600F043B5 /* WelcomeImages.swift in Sources */,
 				FBEFEE662CD11FDE002A9984 /* TimerView.swift in Sources */,
 				FB1424DE2CBD21CD001A4C21 /* HeaderView.swift in Sources */,
@@ -378,9 +388,11 @@
 				FB06F7BD2CCA775800E142C3 /* HistoryView.swift in Sources */,
 				FBF97A912CABF02300EA4638 /* WelcomeView.swift in Sources */,
 				FBA7035F2CDE0FB70043A5DE /* ContainerView.swift in Sources */,
+				FB4A8B4E2CE6439F00A73EE6 /* BarChartDayView.swift in Sources */,
 				FB4327702CAB354B00F8C92A /* HIITFitApp.swift in Sources */,
 				FB1424E02CBD4548001A4C21 /* Exercise.swift in Sources */,
 				FB1424ED2CBD61FA001A4C21 /* ImageExtension.swift in Sources */,
+				FB4A8B502CE6483400A73EE6 /* BarChartWeekView.swift in Sources */,
 				FB06F7BB2CCA459400E142C3 /* VideoPlayerView.swift in Sources */,
 				FBA7035D2CDE02180043A5DE /* EmbossedButton.swift in Sources */,
 			);
