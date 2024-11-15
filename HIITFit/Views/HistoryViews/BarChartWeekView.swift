@@ -14,8 +14,8 @@ struct BarChartWeekView: View {
   var body: some View {
       Chart(history.exerciseDays.prefix(7)) { day in
         BarMark(
-          x: .value("Date", day.date.dayName),
-          y: .value("Total Count", day.exercises.count))
+            x: .value("Date", day.date, unit: .day),
+            y: .value("Total Count", day.exercises.count))
       }    .padding()
   }
 }
